@@ -18,14 +18,12 @@ function init() {
 
     if (key === codes[index]) {
       index++;
-
       if (index === codes.length) {
         alert("Hurray!");
-
         index = 0;
       }
     } else {
       index = 0;
-    }// Now, how can we check for which specific key was pressed?
+    }
   }
 }
